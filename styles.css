@@ -1,3 +1,31 @@
 body{
-  background-color: #f4f4f4;
+  background-color:#f4f4f4;
+  
+}
+.color-grid {
+  display: flex;
+  width: 600px;      /* fixed width for outer div */
+  margin: 0 auto;    /* center it horizontally (optional) */
+  gap: 10px;         /* fixed space between boxes */
+}
+
+.color-grid div {
+  flex: 1;           /* makes all inner boxes equal width */
+  height: 100px;     /* example height */
+border-radius:6px;
+}
+.color1{
+  background-color:#f4f6;
+}
+.color2{
+  background-color:rgb(200,150,255);
+}
+.color3{
+  background-color:pink;
+}
+.color4{
+  background-color:hsl(264 83.9% 64.2%);
+}
+.color5 {
+  background-color: #c0ffed; /* example color (coral) */
 }
